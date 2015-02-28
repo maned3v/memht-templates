@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<template>
+	<name>Square</name>
+	<version>1.0</version>
+	<description>Square template</description>
+	
+	<author>
+		<name>Miltenovikj Manojlo</name>
+		<email>dev@miltenovik.com</email>
+		<url>http://www.memht.com</url>
+		<copyright>Copyright (C) 2008-2012 Miltenovikj Manojlo</copyright>
+		<license>GNU/GPLv2 http://www.gnu.org/licenses/</license>
+	</author>
+	
+	<content>
+		<blog>
+			<field>
+				<label>thumb_index</label>
+				<description><![CDATA[Shows an image in the top-left corner of posts in the blog index<br/><em>Example: assets/images/news.jpg</em>]]></description>
+			</field>
+			<field>
+				<label>thumb_view</label>
+				<description><![CDATA[Shows an image at the beginning (right before the text) of the blog post view page<br/><em>Example: assets/image/news.jpg</em>]]></description>
+			</field>
+		</blog>
+		<articles>
+			<field>
+				<label>thumb_index</label>
+				<description><![CDATA[Shows an image in the top-left corner of posts in the articles index<br/><em>Example: assets/images/news.jpg</em>]]></description>
+			</field>
+			<field>
+				<label>thumb_view</label>
+				<description><![CDATA[Shows an image at the beginning (right before the text) of the articles view page<br/><em>Example: assets/image/news.jpg</em>]]></description>
+			</field>
+		</articles>
+	</content>
+	
+	<stickers>
+		<field>
+			<label>featuredone</label>
+			<description>Featured box: one</description>
+			<default></default>
+		</field>
+		<field>
+			<label>featuredtwo</label>
+			<description>Featured box: two</description>
+			<default></default>
+		</field>
+		<field>
+			<label>featuredthree</label>
+			<description>Featured box: three</description>
+			<default></default>
+		</field>
+	</stickers>
+</template>

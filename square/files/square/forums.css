@@ -1,0 +1,126 @@
+/* Main */
+.tpl_forums_table {
+	border:5px solid #E8F1F7;
+	margin-bottom:10px;
+	color:#5C7283
+}
+.tpl_forums_table table {
+	border-left:1px solid #D1E2F1;
+	border-top:1px solid #D1E2F1;
+	border-right:1px solid #D1E2F1;
+}
+.tpl_forums_table table th {
+	padding:5px;
+}
+.tpl_forums_table table td {
+	padding:5px;
+}
+.tpl_forums_table table .cat_title th {
+	background-color: #a1cd7d;
+	color:#FFF;
+}
+.tpl_forums_table table .forum_legend td {
+	background-color: #8dadc7;
+	border-bottom:1px solid #D1E2F1;
+	color:#FFF;
+}
+.tpl_forums_table table .forum_title td {
+	border-bottom:1px solid #D1E2F1;
+}
+.tpl_forums_table table .forum_description {
+	margin-top:5px;
+	color:#5C7283;
+}
+.subforum_title div {
+	float:left;
+	padding:5px 5px 5px 0;
+	color:#5C7283
+}
+.subforum_title div a,
+.subforum_title div a:link,
+.subforum_title div a:visited {
+	color:#5C7283
+}
+.subforum_title div a:hover {
+	color:#FF9900;
+}
+/* Thread */
+.tpl_forums_table table .thread_title th {
+	background-color: #a1cd7d;
+	border-bottom:1px solid #D1E2F1;
+	color:#FFF;
+}
+.tpl_forums_table table .thread_title td {
+	border-bottom:1px solid #D1E2F1;
+}
+/* Posts */
+.tpl_forums_post {
+	border:1px solid #DDD;
+	padding:10px;
+}
+.tpl_forums_post_ring {
+	border:5px solid #EEE;
+	margin-bottom:10px;
+}
+.tpl_forums_post .title {
+	font: 24px/27px 'QuicksandBook', Arial, sans-serif;
+}
+.tpl_forums_post .info {
+	border-bottom:1px dotted #DDD;
+	padding-bottom:5px;
+	margin-bottom:10px;
+}
+.tpl_forums_post .foot {
+	border:1px dotted #DDD;
+	padding:5px;
+	margin-top:10px;
+	color:#AAA;
+	font-size:10px;
+}
+/* Buttons */
+.tpl_forums_buttons {
+	margin-bottom:10px;
+}
+.tpl_forums_buttons_inthread {
+	margin-top:10px;
+}
+.tpl_forums_buttons div,
+.tpl_forums_buttons_inthread div {
+	float:left;
+	margin-right:10px;
+	border:5px solid #E8F1F7;
+	
+}
+.tpl_forums_buttons div a,
+.tpl_forums_buttons_inthread div a {
+	border:1px solid #D1E2F1;
+	display:block;
+	padding:5px;
+}
+.tpl_forums_table table .thread_author {
+	margin-top:5px;
+	color:#5C7283;
+}
+/* Form */
+.tpl_forums_row {
+	margin-bottom:10px;
+}
+.tpl_forums_label {
+	display:block;
+}
+.tpl_forums_input {
+	border:1px solid #BDD4E7;
+	color:#5286AD;
+	width:70%;
+}
+.tpl_forums_textarea {
+	border:1px solid #BDD4E7;
+	color:#5286AD;
+	width:99%;
+	height:300px;
+}
+.tpl_forums_button {
+	border:1px solid #BDD4E7;
+	color:#5286AD;
+	margin:0;
+}
